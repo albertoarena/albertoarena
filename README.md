@@ -48,7 +48,7 @@ sourcing, and I write about Laravel, developer tools, and AI-assisted coding wit
 - Jul 31, 2026 · [The schema doctor is in](https://albertoarena.it/posts/the-schema-doctor-is-in/)
 - Jul 31, 2026 · [Il dottore dello schema è in ambulatorio](https://albertoarena.it/posts/the-schema-doctor-is-in/it/)<!-- BLOG-POST-LIST:END -->
 
-[All posts](https://albertoarena.it) · [RSS](https://albertoarena.it/rss.xml)
+[Read all posts on my blog](https://albertoarena.it) · [RSS](https://albertoarena.it/rss.xml)
 
 ---
 
