@@ -23,3 +23,8 @@ jobs:
           template: "- $date · [$title]($url)$newline"
           date_format: "mmm d, yyyy"
           commit_message: "chore: update latest blog posts"
+          # The default rss-parser user agent times out against the site,
+          # so use a browser agent and retry on transient failures.
+          user_agent: "Mozilla/5.0 (compatible; blog-post-workflow/1.0)"
+          retry_count: 3
+          retry_wait_time: 5
