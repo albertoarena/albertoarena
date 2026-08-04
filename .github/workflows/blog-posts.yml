@@ -20,8 +20,11 @@ jobs:
         with:
           feed_list: "https://albertoarena.it/rss.xml"
           max_post_count: 5
-          template: "- $date · [$title]($url)$newline"
+          # Leading newline keeps the first item off the START marker line,
+          # otherwise it renders as raw markdown instead of a list item.
+          template: "$newline- $date · [$title]($url)"
           date_format: "mmm d, yyyy"
+          disable_html_encoding: true
           commit_message: "chore: update latest blog posts"
           # The default rss-parser user agent times out against the site,
           # so use a browser agent and retry on transient failures.
