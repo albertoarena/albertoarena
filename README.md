@@ -41,7 +41,11 @@ sourcing, and I write about Laravel, developer tools, and AI-assisted coding wit
 
 ## Latest posts
 
-<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:START -->- Aug 1, 2026 · [We Became Editors-in-Chief, and Nobody Trained Us](https://albertoarena.it/posts/we-became-editors-in-chief/)
+- Jul 31, 2026 · [The schema doctor is in](https://albertoarena.it/posts/the-schema-doctor-is-in/)
+- Jul 27, 2026 · [CLAUDE.md Is RAM, Skills Are Not Disk: The Four-Tier Memory Model for Claude Code](https://albertoarena.it/posts/claude-md-skills-are-not-disk/)
+- Jul 23, 2026 · [There&#39;s no artisan schema:show, so I built one](https://albertoarena.it/posts/introducing-truss/)
+- Jul 19, 2026 · [Claude Code Routines: A Third Way Beyond /goal and /loop](https://albertoarena.it/posts/claude-code-routines-vs-goal-loop/)
 <!-- BLOG-POST-LIST:END -->
 
 [All posts](https://albertoarena.it) · [RSS](https://albertoarena.it/rss.xml)
