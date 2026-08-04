@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Alberto Arena, senior software engineer, developer tooling for Laravel and event sourcing">
+  <rect width="1200" height="300" fill="#0d1117"/>
+
+  <!-- gutter rule -->
+  <rect x="64" y="72" width="3" height="156" fill="#5eb3ff"/>
+
+  <!-- name -->
+  <text x="96" y="146"
+        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="62" font-weight="600" letter-spacing="-1.4" fill="#e6edf3">Alberto Arena</text>
+
+  <!-- tagline -->
+  <text x="98" y="190"
+        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="25" font-weight="400" fill="#9aa7b2">Developer tooling for Laravel and event sourcing</text>
+
+  <!-- utility line -->
+  <text x="98" y="228"
+        font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace"
+        font-size="16" letter-spacing="0.4" fill="#6e7b8a">albertoarena.it · Messina, Italy · 100% remote</text>
+
+  <!-- schema motif -->
+  <g opacity="0.45" fill="none" stroke="#8b949e" stroke-width="1.6">
+    <rect x="830" y="95" width="140" height="76" rx="8"/>
+    <line x1="830" y1="120" x2="970" y2="120"/>
+    <rect x="1000" y="165" width="140" height="76" rx="8"/>
+    <line x1="1000" y1="190" x2="1140" y2="190"/>
+  </g>
+  <g opacity="0.32" stroke="#8b949e" stroke-width="1.6" stroke-linecap="round">
+    <line x1="846" y1="139" x2="936" y2="139"/>
+    <line x1="846" y1="155" x2="908" y2="155"/>
+    <line x1="1016" y1="209" x2="1106" y2="209"/>
+    <line x1="1016" y1="225" x2="1078" y2="225"/>
+  </g>
+  <g fill="none" stroke="#5eb3ff" stroke-width="1.8" stroke-linecap="round">
+    <path d="M970 133 H985 V203 H1000"/>
+    <path d="M962 126 L970 133 L962 140"/>
+    <circle cx="1000" cy="203" r="2.6" fill="#5eb3ff" stroke="none"/>
+  </g>
+</svg>

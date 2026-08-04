@@ -1,0 +1,14 @@
+# Local docs
+.docs/
+
+# Claude Code
+.claude/settings.local.json
+CLAUDE.local.md
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# macOS
+.DS_Store

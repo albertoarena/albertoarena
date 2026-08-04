@@ -1,0 +1,25 @@
+name: Latest blog posts
+
+on:
+  schedule:
+    # every day at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull latest posts from the feed
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://albertoarena.it/rss.xml"
+          max_post_count: 5
+          template: "- $date · [$title]($url)$newline"
+          date_format: "mmm d, yyyy"
+          commit_message: "chore: update latest blog posts"
