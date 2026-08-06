@@ -48,11 +48,11 @@ I send occasional emails on what I'm building in Laravel and AI-assisted develop
 ## Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- Aug 5, 2026 · [I built a Laravel event-sourcing generator, then the AI version](https://albertoarena.it/posts/generator-vs-ai-skill/)
 - Aug 3, 2026 · [I gave my schema viewer your app's colours](https://albertoarena.it/posts/gave-my-schema-viewer-your-app-colours/)
 - Aug 1, 2026 · [We Became Editors-in-Chief, and Nobody Trained Us](https://albertoarena.it/posts/we-became-editors-in-chief/)
 - Jul 31, 2026 · [The schema doctor is in](https://albertoarena.it/posts/the-schema-doctor-is-in/)
-- Jul 27, 2026 · [CLAUDE.md Is RAM, Skills Are Not Disk: The Four-Tier Memory Model for Claude Code](https://albertoarena.it/posts/claude-md-skills-are-not-disk/)
-- Jul 23, 2026 · [There's no artisan schema:show, so I built one](https://albertoarena.it/posts/introducing-truss/)<!-- BLOG-POST-LIST:END -->
+- Jul 27, 2026 · [CLAUDE.md Is RAM, Skills Are Not Disk: The Four-Tier Memory Model for Claude Code](https://albertoarena.it/posts/claude-md-skills-are-not-disk/)<!-- BLOG-POST-LIST:END -->
 
 [Read all posts on my blog](https://albertoarena.it) · [RSS](https://albertoarena.it/rss.xml)
 
