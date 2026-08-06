@@ -6,6 +6,12 @@
 Senior software engineer. I build and maintain developer tooling for Laravel and event
 sourcing, and I write about Laravel, developer tools, and AI-assisted coding with Claude Code.
 
+### 📬 Newsletter
+
+I send occasional emails on what I'm building in Laravel and AI-assisted development: packages, releases, and posts. No spam, unsubscribe anytime.
+
+**[Subscribe →](https://albertoarena.it/subscribe/?utm_source=github&utm_medium=profile&utm_campaign=newsletter&utm_content=albertoarena)**
+
 ## Currently
 
 - Shipping [**Truss**](https://github.com/albertoarena/laravel-truss), a live ER diagram of your Laravel schema. Structure only, never data, so it is safe in production. The latest release adds `truss:doctor`, a schema health check that can fail your CI build. [Docs](https://trussphp.com)
