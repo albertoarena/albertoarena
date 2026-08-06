@@ -19,7 +19,7 @@ jobs:
       # site-side: albertoarena.it blackholes GitHub's Azure runner IPs during
       # some windows (fine from other networks). The retry settings below only
       # cover short blips; a sustained block needs a host/CDN fix. Full writeup
-      # in .docs/blog-workflow-feed-timeouts.md.
+      # in docs/blog-workflow-feed-timeouts.md.
       - name: Pull latest posts from the feed
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
