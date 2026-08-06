@@ -8,9 +8,9 @@ sourcing, and I write about Laravel, developer tools, and AI-assisted coding wit
 
 ### 📬 Newsletter
 
-I send occasional emails on what I'm building in Laravel and AI-assisted development: packages, releases, and posts. No spam, unsubscribe anytime.
+Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plus practical notes on Laravel and AI-assisted development, roughly once a month. No spam.
 
-**[Subscribe →](https://albertoarena.it/subscribe/?utm_source=github&utm_medium=profile&utm_campaign=newsletter&utm_content=albertoarena)**
+**[Get the cheat sheet →](https://albertoarena.it/subscribe/?utm_source=github&utm_medium=profile&utm_campaign=newsletter&utm_content=albertoarena)**
 
 ## Currently
 
