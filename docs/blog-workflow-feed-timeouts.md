@@ -60,8 +60,12 @@ like the runner does, while a local request stays instant).
 ## If red runs become annoying and the site fix isn't done
 
 Options, in order of preference:
+- Invert the flow: have the blog build push the post list into this README
+  instead of pulling it here. Removes the Azure-IP failure entirely. Full spec
+  in docs/blog-push-handoff.md.
 - Leave it: the daily schedule usually lands in a good window and nothing is
   miscommitted on failure.
-- Fetch the feed via a proxy/path not subject to the bot rule.
+- Fetch the feed via a proxy/path not subject to the bot rule. Note: free public
+  proxies tested unreliable (allorigins times out, corsproxy.io is paywalled).
 - Mark the fetch step `continue-on-error: true` so the job stays green (hides
   genuine failures too, so only if the noise outweighs that).
