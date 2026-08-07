@@ -1,7 +1,9 @@
 # Blog-posts workflow: intermittent feed timeouts
 
-**Status:** Diagnosed, root cause is site-side (not the workflow)
-**Workflow:** `.github/workflows/blog-posts.yml` (job `update-readme`)
+**Status:** Resolved. Root cause is site-side (not the workflow); fixed by
+inverting the flow (albertoarena.it now pushes the list). The pull workflow
+`.github/workflows/blog-posts.yml` has been retired. Kept for the diagnosis.
+**Workflow (retired):** `.github/workflows/blog-posts.yml` (job `update-readme`)
 **Feed:** https://albertoarena.it/rss.xml
 **First seen:** 2026-08-06
 

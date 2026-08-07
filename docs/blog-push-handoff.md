@@ -145,11 +145,9 @@ The blog CI needs write access to the profile repo:
    profile repo with Contents: write, minting an installation token in the job.
    PAT is fine for a personal setup.)
 
-## After it works: retire the pull side (in this profile repo)
+## Retire the pull side (in this profile repo)
 
-To stop the failing scheduled runs and avoid two writers racing, either:
-
-- **Delete** `.github/workflows/blog-posts.yml`, or
-- Remove its `schedule:` trigger and keep `workflow_dispatch` as a manual
-  fallback (note: manual runs still hit the same Azure block, so it is a fallback
-  in name only).
+Done. `.github/workflows/blog-posts.yml` was deleted once the push side was
+confirmed working (albertoarena.it run 31184891115), so there is no risk of two
+writers racing on `README.md`. The manual-dispatch fallback was not kept, since a
+manual run would still hit the same Azure-IP block and time out.
