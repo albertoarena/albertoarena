@@ -48,8 +48,8 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 ## Latest posts
 
 <!-- BLOG-POST-LIST:START -->
-- Aug 10, 2026 · [Claude Code Auto Mode: What Still Needs a Human](https://albertoarena.it/posts/claude-code-auto-mode-still-needs-a-human/)
 - Aug 10, 2026 · [My coding agent kept inventing columns](https://albertoarena.it/posts/my-coding-agent-kept-inventing-columns/)
+- Aug 10, 2026 · [Claude Code Auto Mode: What Still Needs a Human](https://albertoarena.it/posts/claude-code-auto-mode-still-needs-a-human/)
 - Aug 5, 2026 · [I built a Laravel event-sourcing generator, then the AI version](https://albertoarena.it/posts/generator-vs-ai-skill/)
 - Aug 3, 2026 · [I gave my schema viewer your app's colours](https://albertoarena.it/posts/gave-my-schema-viewer-your-app-colours/)
 - Aug 1, 2026 · [We Became Editors-in-Chief, and Nobody Trained Us](https://albertoarena.it/posts/we-became-editors-in-chief/)<!-- BLOG-POST-LIST:END -->
