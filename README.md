@@ -14,10 +14,10 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 
 ## Currently
 
-- Shipping [**Truss**](https://github.com/albertoarena/laravel-truss), a live ER diagram of your Laravel schema. Structure only, never data, so it is safe in production. The latest release adds `truss:doctor`, a schema health check that can fail your CI build. [Docs](https://trussphp.com)
+- Shipping [**Truss**](https://github.com/albertoarena/laravel-truss), a live ER diagram of your Laravel schema, safe to run against production. It exports the schema as grounding context for a coding agent, over an optional read-only MCP server, and `truss:doctor` reviews the structure for problems and can fail your CI build. Structure only, never data. [Docs](https://trussphp.com/?utm_source=github&utm_medium=profile&utm_campaign=bio)
 - Bringing Spatie event sourcing into Filament v4 with [**filament-event-sourcing**](https://github.com/albertoarena/filament-event-sourcing).
 - Working out how far a Claude Code skill can replace a code generator, in [**claude-laravel-event-sourcing**](https://github.com/albertoarena/claude-laravel-event-sourcing).
-- Available for freelance and consulting work. [Here is what that looks like](https://albertoarena.it/pages/consulting/).
+- Available for freelance and consulting work. [Here is what that looks like](https://albertoarena.it/pages/consulting/?utm_source=github&utm_medium=profile&utm_campaign=consulting).
 
 ## What I maintain
 
@@ -54,8 +54,8 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 - Aug 3, 2026 · [I gave my schema viewer your app's colours](https://albertoarena.it/posts/gave-my-schema-viewer-your-app-colours/)
 - Aug 1, 2026 · [We Became Editors-in-Chief, and Nobody Trained Us](https://albertoarena.it/posts/we-became-editors-in-chief/)<!-- BLOG-POST-LIST:END -->
 
-[Read all posts on my blog](https://albertoarena.it) · [RSS](https://albertoarena.it/rss.xml)
+[Read all posts on my blog](https://albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=bio&utm_content=posts) · [RSS](https://albertoarena.it/rss.xml)
 
 ---
 
-[albertoarena.it](https://albertoarena.it) · [@alberto_arena](https://x.com/alberto_arena) · [LinkedIn](https://www.linkedin.com/in/alberto-arena-ba44a624/)
+[albertoarena.it](https://albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=bio&utm_content=footer) · [@alberto_arena](https://x.com/alberto_arena) · [LinkedIn](https://www.linkedin.com/in/alberto-arena-ba44a624/) · [YouTube](https://www.youtube.com/@AlbertoArenaDev)
