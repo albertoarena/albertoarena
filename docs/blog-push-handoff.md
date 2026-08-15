@@ -1,13 +1,11 @@
 # Handoff: push latest posts from the blog build into the profile README
 
-> **Moved.** This plan now lives in the `albertoarena.it` repo, at
-> `docs/plans/profile-readme-push.md`, since all the actual work (script,
-> CI step, corrections against the real build) happens there. Implemented
-> on branch `chore/profile-readme-push`, pending the `PROFILE_README_TOKEN`
-> secret. This file stays as a pointer; see the other repo for the current
-> spec and status.
+> **Moved, and now shipped.** This plan lives in the `albertoarena.it` repo, at
+> `docs/plans/completed/profile-readme-push.md`, since all the actual work
+> (script, CI step, corrections against the real build) happens there. This file
+> stays as a pointer; see the other repo for the implementation.
 
-**Status:** Proposed alternative to the scheduled pull (see [feed timeouts note](blog-workflow-feed-timeouts.md))
+**Status:** **Shipped and running since 10/08/2026.** The `PROFILE_README_TOKEN` secret is in place and `albertoarena.it`'s `publish.yml` writes the list on every deploy. The scheduled pull it replaced (see [feed timeouts note](blog-workflow-feed-timeouts.md)) was deleted on 07/08/2026. Everything below is the original proposal, kept as the record of why.
 **Target repo:** `albertoarena/albertoarena` (this profile repo), `README.md`
 **Work happens in:** the `albertoarena.it` blog repo (its CI), plus a small cleanup here
 
