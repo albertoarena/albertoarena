@@ -48,7 +48,7 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 ## Latest posts
 
 <!-- BLOG-POST-LIST:START -->
-- Aug 24, 2026 · [The bug that only showed up once strangers could paste a schema](https://albertoarena.it/posts/what-a-trusted-connection-was-doing-for-you/)
+- Aug 24, 2026 · [The bug that only showed up once strangers could paste a schema](https://albertoarena.it/posts/the-bug-that-only-showed-up-with-pasted-schemas/)
 - Aug 17, 2026 · [Context Engineering: The Discipline That Keeps AI From Writing Slop](https://albertoarena.it/posts/context-engineering-not-slop/)
 - Aug 10, 2026 · [My coding agent kept inventing columns](https://albertoarena.it/posts/my-coding-agent-kept-inventing-columns/)
 - Aug 10, 2026 · [Claude Code Auto Mode: What Still Needs a Human](https://albertoarena.it/posts/claude-code-auto-mode-still-needs-a-human/)
