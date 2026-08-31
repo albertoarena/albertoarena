@@ -48,11 +48,11 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 ## Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- Aug 31, 2026 · [Three ways to build a Laravel ERD, and what each one costs](https://albertoarena.it/posts/three-ways-to-build-a-laravel-erd/)
 - Aug 28, 2026 · [The Laravel schema nobody chose](https://albertoarena.it/posts/the-laravel-schema-nobody-chose/)
 - Aug 24, 2026 · [The bug that only showed up once strangers could paste a schema](https://albertoarena.it/posts/the-bug-that-only-showed-up-with-pasted-schemas/)
 - Aug 17, 2026 · [Context Engineering: The Discipline That Keeps AI From Writing Slop](https://albertoarena.it/posts/context-engineering-not-slop/)
-- Aug 10, 2026 · [My coding agent kept inventing columns](https://albertoarena.it/posts/my-coding-agent-kept-inventing-columns/)
-- Aug 10, 2026 · [Claude Code Auto Mode: What Still Needs a Human](https://albertoarena.it/posts/claude-code-auto-mode-still-needs-a-human/)<!-- BLOG-POST-LIST:END -->
+- Aug 10, 2026 · [My coding agent kept inventing columns](https://albertoarena.it/posts/my-coding-agent-kept-inventing-columns/)<!-- BLOG-POST-LIST:END -->
 
 [Read all posts on my blog](https://albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=bio&utm_content=posts) · [RSS](https://albertoarena.it/rss.xml)
 
