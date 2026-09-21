@@ -48,11 +48,11 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 ## Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- Sep 21, 2026 · [Will Open Source Survive the Agents That Replaced It?](https://albertoarena.it/posts/will-open-source-survive-the-agents-that-replaced-it/)
 - Sep 19, 2026 · [I thought Jev was fuzzy logic. I was wrong.](https://albertoarena.it/posts/i-thought-jev-was-fuzzy-logic/)
 - Sep 18, 2026 · [ER diagrams for Filament, without a single row of customer data](https://albertoarena.it/posts/erd-for-filament-without-customer-data/)
 - Sep 14, 2026 · [Agent Teams: Why I Don't Let My Reviewer See My Reasoning](https://albertoarena.it/posts/agent-teams-isolated-reviewer/)
-- Sep 9, 2026 · [I thought I knew what a savepoint was](https://albertoarena.it/posts/i-thought-i-knew-what-a-savepoint-was/)
-- Aug 31, 2026 · [Three ways to build a Laravel ERD, and what each one costs](https://albertoarena.it/posts/three-ways-to-build-a-laravel-erd/)<!-- BLOG-POST-LIST:END -->
+- Sep 9, 2026 · [I thought I knew what a savepoint was](https://albertoarena.it/posts/i-thought-i-knew-what-a-savepoint-was/)<!-- BLOG-POST-LIST:END -->
 
 [Read all posts on my blog](https://albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=bio&utm_content=posts) · [RSS](https://albertoarena.it/rss.xml)
 
