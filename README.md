@@ -48,11 +48,11 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 ## Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- Sep 26, 2026 · [I told Claude not to sign my commits. It signed 25 of them.](https://albertoarena.it/posts/i-told-claude-not-to-sign-my-commits/)
 - Sep 23, 2026 · [How I Manage Homebrew From a UI](https://albertoarena.it/posts/how-i-manage-homebrew-from-a-ui/)
 - Sep 21, 2026 · [Will Open Source Survive the Agents That Replaced It?](https://albertoarena.it/posts/will-open-source-survive-the-agents-that-replaced-it/)
 - Sep 19, 2026 · [I thought Jev was fuzzy logic. I was wrong.](https://albertoarena.it/posts/i-thought-jev-was-fuzzy-logic/)
-- Sep 18, 2026 · [ER diagrams for Filament, without a single row of customer data](https://albertoarena.it/posts/erd-for-filament-without-customer-data/)
-- Sep 14, 2026 · [Agent Teams: Why I Don't Let My Reviewer See My Reasoning](https://albertoarena.it/posts/agent-teams-isolated-reviewer/)<!-- BLOG-POST-LIST:END -->
+- Sep 18, 2026 · [ER diagrams for Filament, without a single row of customer data](https://albertoarena.it/posts/erd-for-filament-without-customer-data/)<!-- BLOG-POST-LIST:END -->
 
 [Read all posts on my blog](https://albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=bio&utm_content=posts) · [RSS](https://albertoarena.it/rss.xml)
 
