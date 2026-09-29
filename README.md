@@ -48,7 +48,7 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 ## Latest posts
 
 <!-- BLOG-POST-LIST:START -->
-- Oct 3, 2026 · [The Effort Was the Filter](https://albertoarena.it/posts/the-effort-was-the-filter/)
+- Sep 28, 2026 · [The Effort Was the Filter](https://albertoarena.it/posts/the-effort-was-the-filter/)
 - Sep 26, 2026 · [I told Claude not to sign my commits. It signed 25 of them.](https://albertoarena.it/posts/i-told-claude-not-to-sign-my-commits/)
 - Sep 23, 2026 · [How I Manage Homebrew From a UI](https://albertoarena.it/posts/how-i-manage-homebrew-from-a-ui/)
 - Sep 21, 2026 · [Will Open Source Survive the Agents That Replaced It?](https://albertoarena.it/posts/will-open-source-survive-the-agents-that-replaced-it/)
