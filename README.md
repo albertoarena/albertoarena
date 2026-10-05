@@ -48,11 +48,11 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 ## Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- Oct 5, 2026 · [The Sound of Silence: What Your AI Agent Does Not Tell You](https://albertoarena.it/posts/the-sound-of-silence/)
 - Sep 30, 2026 · [Prompt Injection Is a Laravel Problem Now](https://albertoarena.it/posts/prompt-injection-is-a-laravel-problem-now/)
 - Sep 28, 2026 · [The Effort Was the Filter](https://albertoarena.it/posts/the-effort-was-the-filter/)
 - Sep 26, 2026 · [I told Claude not to sign my commits. It signed 25 of them.](https://albertoarena.it/posts/i-told-claude-not-to-sign-my-commits/)
-- Sep 23, 2026 · [How I Manage Homebrew From a UI](https://albertoarena.it/posts/how-i-manage-homebrew-from-a-ui/)
-- Sep 21, 2026 · [Will Open Source Survive the Agents That Replaced It?](https://albertoarena.it/posts/will-open-source-survive-the-agents-that-replaced-it/)<!-- BLOG-POST-LIST:END -->
+- Sep 23, 2026 · [How I Manage Homebrew From a UI](https://albertoarena.it/posts/how-i-manage-homebrew-from-a-ui/)<!-- BLOG-POST-LIST:END -->
 
 [Read all posts on my blog](https://albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=bio&utm_content=posts) · [RSS](https://albertoarena.it/rss.xml)
 
