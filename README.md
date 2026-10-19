@@ -48,7 +48,7 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 ## Latest posts
 
 <!-- BLOG-POST-LIST:START -->
-- Oct 19, 2026 · [PHP is not dead. Here is what people shipped.](https://albertoarena.it/posts/php-is-not-dead-here-is-what-people-shipped/)
+- Oct 19, 2026 · [PHP is not dead. Here is what people shipped](https://albertoarena.it/posts/php-is-not-dead-here-is-what-people-shipped/)
 - Oct 15, 2026 · [What I Learned From My First Claude Code Cloud Sessions](https://albertoarena.it/posts/what-i-learned-from-my-first-claude-code-cloud-sessions/)
 - Oct 8, 2026 · [The Last Man Who Could Read Code: A Short Story](https://albertoarena.it/posts/the-last-man-who-could-read-code/)
 - Oct 5, 2026 · [The Sound of Silence: What Your AI Agent Does Not Tell You](https://albertoarena.it/posts/the-sound-of-silence/)
