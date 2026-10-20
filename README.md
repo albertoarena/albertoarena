@@ -16,7 +16,7 @@ composer require albertoarena/laravel-truss --dev
 
 Then open `/truss` in your local app. Outside a Laravel app, `brew install albertoarena/truss/truss` puts the standalone `truss` binary on your PATH.
 
-[![Packagist downloads](https://img.shields.io/packagist/dt/albertoarena/laravel-truss?style=flat-square&label=downloads&color=2b8bf0)](https://packagist.org/packages/albertoarena/laravel-truss) · [Docs](https://trussphp.com/?utm_source=github&utm_medium=profile&utm_campaign=bio) · [Source](https://github.com/albertoarena/laravel-truss)
+<a href="https://packagist.org/packages/albertoarena/laravel-truss"><img src="https://img.shields.io/packagist/dt/albertoarena/laravel-truss?style=flat-square&label=downloads&color=2b8bf0" alt="Packagist downloads" align="absmiddle"></a> · [Docs](https://trussphp.com/?utm_source=github&utm_medium=profile&utm_campaign=bio) · [Source](https://github.com/albertoarena/laravel-truss)
 
 - [filament-truss](https://github.com/albertoarena/filament-truss) puts the Truss diagram of your real database inside a Filament panel.
 - [homebrew-truss](https://github.com/albertoarena/homebrew-truss) is the Homebrew tap for the standalone Truss binary: schema viewer, ER diagram and schema doctor.
@@ -28,7 +28,7 @@ Then open `/truss` in your local app. Outside a Laravel app, `brew install alber
 
 | Area | Project | What it does |
 | --- | --- | --- |
-| Event sourcing | [laravel-event-sourcing-generator](https://github.com/albertoarena/laravel-event-sourcing-generator) | Scaffolds a whole Spatie domain from one Artisan command. [![Packagist downloads](https://img.shields.io/packagist/dt/albertoarena/laravel-event-sourcing-generator?style=flat-square&label=downloads&color=2b8bf0)](https://packagist.org/packages/albertoarena/laravel-event-sourcing-generator) |
+| Event sourcing | [laravel-event-sourcing-generator](https://github.com/albertoarena/laravel-event-sourcing-generator) | Scaffolds a whole Spatie domain from one Artisan command. <a href="https://packagist.org/packages/albertoarena/laravel-event-sourcing-generator"><img src="https://img.shields.io/packagist/dt/albertoarena/laravel-event-sourcing-generator?style=flat-square&label=downloads&color=2b8bf0" alt="Packagist downloads" align="absmiddle"></a> |
 | | [filament-event-sourcing](https://github.com/albertoarena/filament-event-sourcing) | Brings Spatie event sourcing into Filament v4: write through aggregates, browse stored events, replay projectors. |
 | Claude Code | [claude-laravel-event-sourcing](https://github.com/albertoarena/claude-laravel-event-sourcing) | Designs and generates event-sourced domain code. A test of how far a skill can replace a code generator. |
 | | [claude-code-laravel-starter](https://github.com/albertoarena/claude-code-laravel-starter) | A lean docs skeleton for Laravel. CLAUDE.md is RAM, docs/ is disk. |
