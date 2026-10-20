@@ -1,40 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Alberto Arena, senior software engineer, developer tooling for Laravel and event sourcing">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Alberto Arena, senior software engineer, developer tooling for Laravel and event sourcing. An ER diagram in the style of Truss: filament_truss and homebrew_truss both reference laravel_truss.">
+  <style>
+    .edge, .mark, .one { fill: none; stroke: #2b8bf0; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    .edge { stroke-dasharray: 1; stroke-dashoffset: 0; animation: draw 1.2s cubic-bezier(0.16, 1, 0.3, 1) both; }
+    .mark, .one { animation: show 0.5s ease-out both; }
+    .a.edge { animation-delay: 0.4s; }
+    .b.edge { animation-delay: 0.6s; }
+    .a.mark { animation-delay: 0.35s; }
+    .b.mark { animation-delay: 0.55s; }
+    .one { animation-delay: 1.1s; }
+    @keyframes draw { from { stroke-dashoffset: 1; } }
+    @keyframes show { from { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .edge, .mark, .one { animation: none; } }
+  </style>
   <rect width="1200" height="300" fill="#ffffff"/>
 
   <!-- gutter rule -->
   <rect x="64" y="72" width="3" height="156" fill="#2b8bf0"/>
 
   <!-- name -->
-  <text x="96" y="146"
-        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-size="62" font-weight="600" letter-spacing="-1.4" fill="#0f1720">Alberto Arena</text>
+  <text x="96" y="146" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="62" font-weight="600" letter-spacing="-1.4" fill="#0f1720">Alberto Arena</text>
 
   <!-- tagline -->
-  <text x="98" y="190"
-        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-size="25" font-weight="400" fill="#5b6773">Developer tooling for Laravel and event sourcing</text>
+  <text x="98" y="188" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#5b6773">Developer tooling for Laravel and event sourcing</text>
 
   <!-- utility line -->
-  <text x="98" y="228"
-        font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace"
-        font-size="16" letter-spacing="0.4" fill="#8b949e">albertoarena.it · Messina, Italy · 100% remote</text>
+  <text x="98" y="226" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="15" letter-spacing="0.4" fill="#6e7781">albertoarena.it · Messina, Italy · 100% remote</text>
 
-  <!-- schema motif -->
-  <g opacity="0.4" fill="none" stroke="#5b6773" stroke-width="1.6">
-    <rect x="830" y="95" width="140" height="76" rx="8"/>
-    <line x1="830" y1="120" x2="970" y2="120"/>
-    <rect x="1000" y="165" width="140" height="76" rx="8"/>
-    <line x1="1000" y1="190" x2="1140" y2="190"/>
+  <!-- ER diagram: the Truss family, drawn the way Truss draws a schema -->
+  <g>
+    <g class="t">
+    <rect x="690" y="58" width="176" height="82" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1.4"/>
+    <path d="M698 58 H858 Q866 58 866 66 V88 H690 V66 Q690 58 698 58 Z" fill="#f6f8fa"/>
+    <line x1="690" y1="88" x2="866" y2="88" stroke="#d0d7de" stroke-width="1.4"/>
+    <text x="704" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#0f1720">filament_truss</text>
+    <text x="704" y="105.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#5b6773">id</text>
+    <text x="852" y="105.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e7781">pk</text>
+    <line x1="691" y1="114" x2="865" y2="114" stroke="#d0d7de" stroke-width="1" opacity="0.7"/>
+    <text x="704" y="131.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#5b6773">truss_id</text>
+    <text x="852" y="131.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e7781">fk</text>
+    </g>
+    <g class="t">
+    <rect x="690" y="164" width="176" height="82" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1.4"/>
+    <path d="M698 164 H858 Q866 164 866 172 V194 H690 V172 Q690 164 698 164 Z" fill="#f6f8fa"/>
+    <line x1="690" y1="194" x2="866" y2="194" stroke="#d0d7de" stroke-width="1.4"/>
+    <text x="704" y="184" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#0f1720">homebrew_truss</text>
+    <text x="704" y="211.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#5b6773">id</text>
+    <text x="852" y="211.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e7781">pk</text>
+    <line x1="691" y1="220" x2="865" y2="220" stroke="#d0d7de" stroke-width="1" opacity="0.7"/>
+    <text x="704" y="237.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#5b6773">truss_id</text>
+    <text x="852" y="237.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e7781">fk</text>
+    </g>
+    <g class="t">
+    <rect x="944" y="72" width="200" height="160" rx="8" fill="#ffffff" stroke="#2b8bf0" stroke-width="1.4"/>
+    <path d="M952 72 H1136 Q1144 72 1144 80 V102 H944 V80 Q944 72 952 72 Z" fill="#2b8bf0" fill-opacity="0.10"/>
+    <line x1="944" y1="102" x2="1144" y2="102" stroke="#2b8bf0" stroke-width="1.4"/>
+    <text x="958" y="92" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#0f1720">laravel_truss</text>
+    <text x="958" y="119.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#5b6773">id</text>
+    <text x="1130" y="119.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e7781">pk</text>
+    <line x1="945" y1="128" x2="1143" y2="128" stroke="#d0d7de" stroke-width="1" opacity="0.7"/>
+    <text x="958" y="145.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#5b6773">diagram</text>
+    <text x="1130" y="145.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e7781">live</text>
+    <line x1="945" y1="154" x2="1143" y2="154" stroke="#d0d7de" stroke-width="1" opacity="0.7"/>
+    <text x="958" y="171.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#5b6773">doctor</text>
+    <text x="1130" y="171.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e7781">ci</text>
+    <line x1="945" y1="180" x2="1143" y2="180" stroke="#d0d7de" stroke-width="1" opacity="0.7"/>
+    <text x="958" y="197.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#5b6773">export</text>
+    <text x="1130" y="197.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e7781">dbml</text>
+    <line x1="945" y1="206" x2="1143" y2="206" stroke="#d0d7de" stroke-width="1" opacity="0.7"/>
+    <text x="958" y="223.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#5b6773">mcp_server</text>
+    <text x="1130" y="223.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e7781">read-only</text>
+    </g>
   </g>
-  <g opacity="0.3" stroke="#5b6773" stroke-width="1.6" stroke-linecap="round">
-    <line x1="846" y1="139" x2="936" y2="139"/>
-    <line x1="846" y1="155" x2="908" y2="155"/>
-    <line x1="1016" y1="209" x2="1106" y2="209"/>
-    <line x1="1016" y1="225" x2="1078" y2="225"/>
-  </g>
-  <g fill="none" stroke="#2b8bf0" stroke-width="1.8" stroke-linecap="round">
-    <path d="M970 133 H985 V203 H1000"/>
-    <path d="M962 126 L970 133 L962 140"/>
-    <circle cx="1000" cy="203" r="2.6" fill="#2b8bf0" stroke="none"/>
+  <g>
+    <path class="edge a" pathLength="1" d="M866 127.0 H905 V115.0 H944"/>
+    <path class="mark a" d="M878 127.0 L866 121.0 M878 127.0 L866 133.0"/>
+    <path class="edge b" pathLength="1" d="M866 233.0 H905 V115.0 H944"/>
+    <path class="mark b" d="M878 233.0 L866 227.0 M878 233.0 L866 239.0"/>
+    <path class="one" d="M936 109.0 V121.0"/>
   </g>
 </svg>
