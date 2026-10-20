@@ -24,6 +24,8 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 **Laravel**
 
 - [laravel-truss](https://github.com/albertoarena/laravel-truss) reads your schema and draws it as a scrollable, zoomable ER diagram.
+- [filament-truss](https://github.com/albertoarena/filament-truss) puts the Truss diagram of your real database inside a Filament panel.
+- [homebrew-truss](https://github.com/albertoarena/homebrew-truss) is the Homebrew tap for the standalone Truss binary: schema viewer, ER diagram and schema doctor.
 - [codemetry-laravel](https://github.com/albertoarena/codemetry-laravel) brings git-powered code quality metrics to a Laravel app.
 
 **Event sourcing**
@@ -36,6 +38,13 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 - [claude-laravel-event-sourcing](https://github.com/albertoarena/claude-laravel-event-sourcing) designs and generates event-sourced domain code for you.
 - [claude-code-laravel-starter](https://github.com/albertoarena/claude-code-laravel-starter) is a lean docs skeleton for Laravel. CLAUDE.md is RAM, docs/ is disk.
 
+**Sites and apps**
+
+- [PHP Lives](https://phplives.dev/) lists real things people shipped with PHP in the last six months. [Source](https://github.com/albertoarena/phplives.dev)
+- [Cogway](https://cogway.dev/?utm_source=github&utm_medium=profile&utm_campaign=projects) has interactive explainers for Laravel and PHP.
+- [Sudo Play](https://sudoplay.dev/?utm_source=github&utm_medium=profile&utm_campaign=projects) is a macOS menu bar app that picks today's Spotify playlist from what you are coding and how you feel about it. [Source](https://github.com/albertoarena/sudo-play)
+- [tryJev](https://tryjev.albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=projects) is an unofficial demo for Jev, a TypeSafe AI model that answers typed questions with calibrated probabilities.
+
 <details>
 <summary>Smaller tools</summary>
 
@@ -44,6 +53,8 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 - [github-traffic-badge](https://github.com/albertoarena/github-traffic-badge) turns repository traffic into a badge.
 
 </details>
+
+[All projects](https://albertoarena.it/projects/?utm_source=github&utm_medium=profile&utm_campaign=projects)
 
 ## Latest posts
 
@@ -58,4 +69,4 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 
 ---
 
-[albertoarena.it](https://albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=bio&utm_content=footer) · [@alberto_arena](https://x.com/alberto_arena) · [LinkedIn](https://www.linkedin.com/in/alberto-arena-ba44a624/) · [YouTube](https://www.youtube.com/@AlbertoArenaDev)
+[albertoarena.it](https://albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=bio&utm_content=footer) · [dev/null](https://dev-null.sh/@albertoarena) · [@alberto_arena](https://x.com/alberto_arena) · [LinkedIn](https://www.linkedin.com/in/alberto-arena-ba44a624/) · [YouTube](https://www.youtube.com/@AlbertoArenaDev)
