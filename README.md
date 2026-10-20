@@ -1,49 +1,42 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <img src="./assets/banner-light.svg" alt="Alberto Arena, senior software engineer. Developer tooling for Laravel and event sourcing.">
+  <img src="./assets/banner-light.svg" alt="Alberto Arena, senior software engineer. Developer tooling for Laravel and event sourcing. An ER diagram in the style of Truss: filament_truss and homebrew_truss both reference laravel_truss.">
 </picture>
 
 Senior software engineer. I build and maintain developer tooling for Laravel and event
 sourcing, and I write about Laravel, developer tools, and AI-assisted coding with Claude Code.
 
-### 📬 Newsletter
+## Truss
 
-Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plus practical notes on Laravel and AI-assisted development, roughly once a month. No spam.
+[**Truss**](https://github.com/albertoarena/laravel-truss) is a live ER diagram of your Laravel schema, safe to run against production. It exports the schema as grounding context for a coding agent, over an optional read-only MCP server, and `truss:doctor` reviews the structure for problems and can fail your CI build. Structure only, never data.
 
-**[Get the cheat sheet →](https://albertoarena.it/subscribe/?utm_source=github&utm_medium=profile&utm_campaign=newsletter&utm_content=albertoarena)**
+```bash
+composer require albertoarena/laravel-truss --dev
+```
 
-## Currently
+Then open `/truss` in your local app. Outside a Laravel app, `brew install albertoarena/truss/truss` puts the standalone `truss` binary on your PATH.
 
-- Shipping [**Truss**](https://github.com/albertoarena/laravel-truss), a live ER diagram of your Laravel schema, safe to run against production. It exports the schema as grounding context for a coding agent, over an optional read-only MCP server, and `truss:doctor` reviews the structure for problems and can fail your CI build. Structure only, never data. [Docs](https://trussphp.com/?utm_source=github&utm_medium=profile&utm_campaign=bio)
-- Bringing Spatie event sourcing into Filament v4 with [**filament-event-sourcing**](https://github.com/albertoarena/filament-event-sourcing).
-- Working out how far a Claude Code skill can replace a code generator, in [**claude-laravel-event-sourcing**](https://github.com/albertoarena/claude-laravel-event-sourcing).
-- Available for freelance and consulting work. [Here is what that looks like](https://albertoarena.it/pages/consulting/?utm_source=github&utm_medium=profile&utm_campaign=consulting).
+[![Packagist downloads](https://img.shields.io/packagist/dt/albertoarena/laravel-truss?style=flat-square&label=downloads&color=2b8bf0)](https://packagist.org/packages/albertoarena/laravel-truss) · [Docs](https://trussphp.com/?utm_source=github&utm_medium=profile&utm_campaign=bio) · [Source](https://github.com/albertoarena/laravel-truss)
 
-## What I maintain
-
-**Laravel**
-
-- [laravel-truss](https://github.com/albertoarena/laravel-truss) reads your schema and draws it as a scrollable, zoomable ER diagram.
 - [filament-truss](https://github.com/albertoarena/filament-truss) puts the Truss diagram of your real database inside a Filament panel.
 - [homebrew-truss](https://github.com/albertoarena/homebrew-truss) is the Homebrew tap for the standalone Truss binary: schema viewer, ER diagram and schema doctor.
-- [codemetry-laravel](https://github.com/albertoarena/codemetry-laravel) brings git-powered code quality metrics to a Laravel app.
 
-**Event sourcing**
+> [!TIP]
+> Available for freelance and consulting work. [Here is what that looks like](https://albertoarena.it/pages/consulting/?utm_source=github&utm_medium=profile&utm_campaign=consulting).
 
-- [laravel-event-sourcing-generator](https://github.com/albertoarena/laravel-event-sourcing-generator) scaffolds a whole Spatie domain from one Artisan command.
-- [filament-event-sourcing](https://github.com/albertoarena/filament-event-sourcing) writes through aggregates, browses stored events, and replays projectors from a Filament panel.
+## More I maintain
 
-**Claude Code**
-
-- [claude-laravel-event-sourcing](https://github.com/albertoarena/claude-laravel-event-sourcing) designs and generates event-sourced domain code for you.
-- [claude-code-laravel-starter](https://github.com/albertoarena/claude-code-laravel-starter) is a lean docs skeleton for Laravel. CLAUDE.md is RAM, docs/ is disk.
-
-**Sites and apps**
-
-- [PHP Lives](https://phplives.dev/) lists real things people shipped with PHP in the last six months. [Source](https://github.com/albertoarena/phplives.dev)
-- [Cogway](https://cogway.dev/?utm_source=github&utm_medium=profile&utm_campaign=projects) has interactive explainers for Laravel and PHP.
-- [Sudo Play](https://sudoplay.dev/?utm_source=github&utm_medium=profile&utm_campaign=projects) is a macOS menu bar app that picks today's Spotify playlist from what you are coding and how you feel about it. [Source](https://github.com/albertoarena/sudo-play)
-- [tryJev](https://tryjev.albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=projects) is an unofficial demo for Jev, a TypeSafe AI model that answers typed questions with calibrated probabilities.
+| Area | Project | What it does |
+| --- | --- | --- |
+| Event sourcing | [laravel-event-sourcing-generator](https://github.com/albertoarena/laravel-event-sourcing-generator) | Scaffolds a whole Spatie domain from one Artisan command. [![Packagist downloads](https://img.shields.io/packagist/dt/albertoarena/laravel-event-sourcing-generator?style=flat-square&label=downloads&color=2b8bf0)](https://packagist.org/packages/albertoarena/laravel-event-sourcing-generator) |
+| | [filament-event-sourcing](https://github.com/albertoarena/filament-event-sourcing) | Brings Spatie event sourcing into Filament v4: write through aggregates, browse stored events, replay projectors. |
+| Claude Code | [claude-laravel-event-sourcing](https://github.com/albertoarena/claude-laravel-event-sourcing) | Designs and generates event-sourced domain code. A test of how far a skill can replace a code generator. |
+| | [claude-code-laravel-starter](https://github.com/albertoarena/claude-code-laravel-starter) | A lean docs skeleton for Laravel. CLAUDE.md is RAM, docs/ is disk. |
+| Laravel | [codemetry-laravel](https://github.com/albertoarena/codemetry-laravel) | Git-powered code quality metrics for a Laravel app. |
+| Sites and apps | [PHP Lives](https://phplives.dev/) | Real things people shipped with PHP in the last six months. [Source](https://github.com/albertoarena/phplives.dev) |
+| | [Cogway](https://cogway.dev/?utm_source=github&utm_medium=profile&utm_campaign=projects) | Interactive explainers for Laravel and PHP. |
+| | [Sudo Play](https://sudoplay.dev/?utm_source=github&utm_medium=profile&utm_campaign=projects) | A macOS menu bar app that picks today's Spotify playlist from what you are coding and how you feel about it. [Source](https://github.com/albertoarena/sudo-play) |
+| | [tryJev](https://tryjev.albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=projects) | An unofficial demo for Jev, a TypeSafe AI model that answers typed questions with calibrated probabilities. |
 
 <details>
 <summary>Smaller tools</summary>
@@ -56,7 +49,7 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 
 [All projects](https://albertoarena.it/projects/?utm_source=github&utm_medium=profile&utm_campaign=projects)
 
-## Latest posts
+## Writing
 
 <!-- BLOG-POST-LIST:START -->
 - Oct 19, 2026 · [PHP is not dead. Here is what people shipped](https://albertoarena.it/posts/php-is-not-dead-here-is-what-people-shipped/)
@@ -66,6 +59,8 @@ Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plu
 - Sep 30, 2026 · [Prompt Injection Is a Laravel Problem Now](https://albertoarena.it/posts/prompt-injection-is-a-laravel-problem-now/)<!-- BLOG-POST-LIST:END -->
 
 [Read all posts on my blog](https://albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=bio&utm_content=posts) · [RSS](https://albertoarena.it/rss.xml)
+
+**Newsletter.** Subscribe and get my free Spatie Event Sourcing cheat sheet (printable PDF), plus practical notes on Laravel and AI-assisted development, roughly once a month. No spam. **[Get the cheat sheet →](https://albertoarena.it/subscribe/?utm_source=github&utm_medium=profile&utm_campaign=newsletter&utm_content=albertoarena)**
 
 ---
 
