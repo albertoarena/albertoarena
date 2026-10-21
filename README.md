@@ -8,7 +8,7 @@ sourcing, and I write about Laravel, developer tools, and AI-assisted coding wit
 
 ## Truss
 
-[**Truss**](https://github.com/albertoarena/laravel-truss) is a live ER diagram of your Laravel schema, safe to run against production. It exports the schema as grounding context for a coding agent, over an optional read-only MCP server, and `truss:doctor` reviews the structure for problems and can fail your CI build. Structure only, never data.
+[**Truss**](https://github.com/albertoarena/laravel-truss) is a live ER diagram (ERD) of your Laravel schema, safe to run against production. It exports the schema as grounding context for a coding agent, over an optional read-only MCP server, and `truss:doctor` reviews the structure for problems and can fail your CI build. Structure only, never data.
 
 ```bash
 composer require albertoarena/laravel-truss --dev
@@ -64,4 +64,4 @@ Then open `/truss` in your local app. Outside a Laravel app, `brew install alber
 
 ---
 
-[albertoarena.it](https://albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=bio&utm_content=footer) · [dev/null](https://dev-null.sh/@albertoarena) · [@alberto_arena](https://x.com/alberto_arena) · [LinkedIn](https://www.linkedin.com/in/alberto-arena-ba44a624/) · [YouTube](https://www.youtube.com/@AlbertoArenaDev)
+[albertoarena.it](https://albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=bio&utm_content=footer) · [dev/null](https://dev-null.sh/@albertoarena) · [Mastodon](https://phpc.social/@albertoarena) · [@alberto_arena](https://x.com/alberto_arena) · [LinkedIn](https://www.linkedin.com/in/alberto-arena-ba44a624/) · [YouTube](https://www.youtube.com/@AlbertoArenaDev)
