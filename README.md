@@ -52,11 +52,11 @@ Then open `/truss` in your local app. Outside a Laravel app, `brew install alber
 ## Writing
 
 <!-- BLOG-POST-LIST:START -->
+- Oct 23, 2026 · [A job offer came from a recruiter who passed away years ago](https://albertoarena.it/posts/a-job-offer-came-from-a-recruiter-who-passed-away-years-ago/)
 - Oct 19, 2026 · [PHP is not dead. Here is what people shipped](https://albertoarena.it/posts/php-is-not-dead-here-is-what-people-shipped/)
 - Oct 15, 2026 · [What I Learned From My First Claude Code Cloud Sessions](https://albertoarena.it/posts/what-i-learned-from-my-first-claude-code-cloud-sessions/)
 - Oct 8, 2026 · [The Last Man Who Could Read Code: A Short Story](https://albertoarena.it/posts/the-last-man-who-could-read-code/)
-- Oct 5, 2026 · [The Sound of Silence: What Your AI Agent Does Not Tell You](https://albertoarena.it/posts/the-sound-of-silence/)
-- Sep 30, 2026 · [Prompt Injection Is a Laravel Problem Now](https://albertoarena.it/posts/prompt-injection-is-a-laravel-problem-now/)<!-- BLOG-POST-LIST:END -->
+- Oct 5, 2026 · [The Sound of Silence: What Your AI Agent Does Not Tell You](https://albertoarena.it/posts/the-sound-of-silence/)<!-- BLOG-POST-LIST:END -->
 
 [Read all posts on my blog](https://albertoarena.it/?utm_source=github&utm_medium=profile&utm_campaign=bio&utm_content=posts) · [RSS](https://albertoarena.it/rss.xml)
 
