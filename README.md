@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <img src="./assets/banner-light.svg" alt="Alberto Arena, senior software engineer. Developer tooling for Laravel and event sourcing. An ER diagram in the style of Truss: filament_truss and homebrew_truss both reference laravel_truss.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/albertoarena/albertoarena/main/assets/banner-dark.svg">
+  <img src="https://raw.githubusercontent.com/albertoarena/albertoarena/main/assets/banner-light.svg" alt="Alberto Arena, senior software engineer. Developer tooling for Laravel and event sourcing. An ER diagram in the style of Truss: filament_truss and homebrew_truss both reference laravel_truss.">
 </picture>
 
 Senior software engineer. I build and maintain developer tooling for Laravel and event
